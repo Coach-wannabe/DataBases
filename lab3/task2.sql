@@ -25,7 +25,7 @@ select instructor.name from instructor where instructor.dept_name in ('Biology',
 select * from instructor;
 select * from teaches;
 select distinct instructor.name from instructor
-inner join teaches t on instructor.id = t.id and t.year = '2017';
+inner join teaches t on instructor.id = t.id and t.year = '2018';
 
 
 

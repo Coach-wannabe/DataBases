@@ -17,7 +17,7 @@ What is the difference between privilege, role and user?
         as what these users can access/update in the database.
  */
  
- create role accountant;
+create role accountant;
 create role administrator;
 create role support;
 

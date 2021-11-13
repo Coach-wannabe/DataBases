@@ -26,13 +26,13 @@ grant select, update (balance) on accounts to accountant;
 grant all privileges on accounts, customers, transactions to administrator;
 grant select on accounts, customers, transactions to support;
 
-create user JasFace;
-create user qqHomie;
-create user Praque;
+create user Adilet;
+create user Bolatbekov;
+create user Coach;
 
-grant accountant to JasFace;
-grant administrator to qqHomie;
-grant support to Praque;
+grant accountant to Adilet;
+grant administrator to Bolatbekov;
+grant support to Coach;
 
 revoke update on accounts from accountant;
 

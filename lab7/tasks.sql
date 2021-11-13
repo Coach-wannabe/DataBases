@@ -1,3 +1,4 @@
+/*
 -- Task 1
 How can we store large-object types?
     We can store it in binary large object or blob and in character large object or clob

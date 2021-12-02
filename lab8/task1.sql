@@ -56,4 +56,15 @@ begin
 end;
 $$;
 
+create or replace function two_outputs2(value int)
+returns void
+language plpgsql as
+$$
+    begin
+        raise notice 'n1: %', value + 1;
+        raise notice 'n2: %', value - 1;
+    end;
+$$;
+select two_outputs2(10);
+
 select two_outputs(10);

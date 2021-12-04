@@ -29,9 +29,9 @@ $$
         update employees set
         discout = discout + 1 where workexperience >= 7;
 
---         update employees set
---         salary = salary + (salary * (salary * 1.5))
---         where workexperience > 8;
+         update employees set
+         salary = salary + (salary * (salary * 0.15))
+         where workexperience > 8;
         update employees set
         discout = discout + 20 where workexperience > 8;
     end;
